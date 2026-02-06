@@ -1,7 +1,7 @@
 # LibraryXP
 
 Descripción:
-Este es un software demostrativo en el que se ha diseñado para el uso de equipos antiguos compatibles con .NET 3.5 (Siendo su principal foco, usable para Windows XP) para almacenar datos en un archivo .json como persistencia sin base de datos.
+Este es un software demostrativo en el que se ha diseñado para el uso de equipos antiguos compatibles con .NET 3.5 (Siendo su foco original para Windows XP, pero debido a compatibilidad, es usable en sistemas x64) para almacenar datos en un archivo .json como persistencia sin base de datos.
 Este software cuenta con la gestión de una Biblioteca en el que se almacenan los Autores, Libros, Usuarios y Préstamos para mantener un orden de los dichos Préstamos.
 
 El proyecto fue creado con fines académicos y de práctica en arquitectura básica y persistencia de datos sin base de datos.
