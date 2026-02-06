@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 
 namespace LibraryXP.Controllers
-
+{
     internal class BookController
     {
         public static void CreateBook(Book newBook)
