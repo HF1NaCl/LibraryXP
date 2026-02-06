@@ -1,0 +1,1 @@
+search_result['47']=["topic_0000000000000019.html","UserController.UpdateUser (Método)","El crédito de préstamos se mantiene intacto al cambiar elementos de la identidad del usuario. (Sigue siendo la misma persona)"];

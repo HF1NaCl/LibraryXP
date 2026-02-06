@@ -5,6 +5,11 @@ using System.Text;
 
 namespace LibraryXP
 {
+    /// <summary>
+    /// El libro es una clase más específica en miembros. Referencia con código para su búsqueda manual, así como la asignación de un Autor, género, y año
+    /// para una idea a lo que se refiere en caso de repetición o similitudes en títulos.
+    /// El stock es un límite para realizar préstamos posteriores, evitando la molestia de prestar un libro que no está disponible.
+    /// </summary>
     internal class Book
     {
         private int idBook;

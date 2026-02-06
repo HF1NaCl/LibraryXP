@@ -5,6 +5,9 @@ using System.Text;
 
 namespace LibraryXP
 {
+    /// <summary>
+    /// La clase autor es lo que tiene. Almacena el Nombre del autor solamente para referencias.
+    /// </summary>
     internal class Author
     {
         private int idAuthor;

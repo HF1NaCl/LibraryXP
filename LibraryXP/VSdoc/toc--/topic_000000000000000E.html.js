@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"LibraryXP Reference","topic_000000000000003F.html"],['39',"LibraryXP.Controllers (Espacio de nombres)","topic_0000000000000000.html"],['54',"LoanController (Clase)","topic_000000000000000D.html"],['55',"Métodos","topic_000000000000000D_methods--.html"],['57',"CreateLoan (Método)","topic_000000000000000E.html"]];

@@ -43,6 +43,12 @@ namespace LibraryXP.Controllers
 
             return true;
         }
+        /// <summary>
+        /// Eliminación del Autor. El metodo puede revisar si tiene libros con préstamos activos para evitar borrar su existencia y crear sinsentidos.
+        /// En caso de que ningún libro tenga préstamo activo, este se elimina, y también eliminando sus libros en el proceso.
+        /// </summary>
+        /// <param name="id">El ID a borrar</param>
+        /// <returns>Un bool para indicar si todo ha ido bien o no.</returns>
         public static bool DeleteAuthor(int id)
         {
             var db = JsonHelper.ReadDB();

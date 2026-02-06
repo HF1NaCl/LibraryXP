@@ -1,0 +1,1 @@
+search_result['34']=["topic_0000000000000011.html","LoanController.CountActiveLoans (Método)","Método para contar cuantos préstamos tiene el libro. Esto evita sobrepasarse en el stock."];

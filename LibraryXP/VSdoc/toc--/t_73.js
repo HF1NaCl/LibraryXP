@@ -1,0 +1,1 @@
+c['73']=[['74',"GetNextID\u003cT\u003e (Método)","topic_0000000000000026.html",0],['75',"ReadDB (Método)","topic_0000000000000024.html",0],['76',"SaveDB (Método)","topic_0000000000000025.html",0]];

@@ -27,6 +27,13 @@ namespace LibraryXP.Controllers
             var db = JsonHelper.ReadDB();
             return db.Users.FirstOrDefault(u => u.IdUser == id);
         }
+        /// <summary>
+        /// El crédito de préstamos se mantiene intacto al cambiar elementos de la identidad del usuario. (Sigue siendo la misma persona)
+        /// </summary>
+        /// <param name="id">El ID para actualizar el Usuario</param>
+        /// <param name="nameUser">Nuevo Nombre</param>
+        /// <param name="lastNameUser">Nuevo Apellido</param>
+        /// <returns>Un bool para indicar si todo ha ido bien o no.</returns>
         public static bool UpdateUser(int id, string nameUser, string lastNameUser)
         {
             var db = JsonHelper.ReadDB();
@@ -39,13 +46,18 @@ namespace LibraryXP.Controllers
 
             user.NameUser = nameUser;
             user.LastNameUser = lastNameUser;
-            //El crédito de préstamos se mantiene intacto al cambiar elementos de la identidad del usuario. (Sigue siendo la misma persona)
 
             JsonHelper.SaveDB(db);
             
             return true;
         }
-        //Método para hacerlo en base a un DB ya existente. No hay necesidad de utilizar sin DB debido que solo exclusivamente lo hace dentro de los Préstamos.
+        /// <summary>
+        /// Método para hacerlo en base a un DB ya existente. No hay necesidad de utilizar sin DB debido que solo exclusivamente lo hace dentro de los Préstamos.
+        /// </summary>
+        /// <param name="db">La Base de datos abierta anteriormente para poder aplicar cambio</param>
+        /// <param name="id">El ID del Usuario para cambiar su puntaje (O el historial crediticio)</param>
+        /// <param name="newScore">El puntaje nuevo que se le suma o reste.</param>
+        /// <returns>Un bool para indicar si todo ha ido bien o no.</returns>
         public static bool UpdateScoreByUser(DataBase db, int id, int newScore)
         {
             var user = db.Users.FirstOrDefault(u => u.IdUser == id);
@@ -59,6 +71,11 @@ namespace LibraryXP.Controllers
 
             return true;
         }
+        /// <summary>
+        /// Elimina todos los préstamos relacionados y el usuario seleccionado
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Un bool para indicar si todo ha ido bien o no.</returns>
         public static bool DeleteUser(int id)
         {
             var db = JsonHelper.ReadDB();

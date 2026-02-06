@@ -9,7 +9,12 @@ using System.Runtime.CompilerServices;
 
 namespace LibraryXP
 {
-   
+    /// <summary>
+    /// El objetivo de este programa es generar archivos .json para almacenar en solo aquel archivo los datos de una gestión de Libros, ya sea
+    /// con las siguientes clases: Autores, Libros, Préstamos y Usuarios. 
+    /// Si bien, esto es básico, está optimizado para utilizar menos recursos posibles.
+    /// También está hecho a través de .NET 3.5 para compatibilizar con Windows XP y otros equipos viejos que dependan del Terminal (CLI)
+    /// </summary>
     internal class Program
     {
         //Inicializa con datos, generando primera instancia como referencia. Luego se sincronizan cambios.
@@ -106,12 +111,15 @@ namespace LibraryXP
                 }
             }
 
-            //Finalmente hacemos esto para salir del programa
+            ///Finalmente hacemos esto para salir del programa
             Console.WriteLine("Presione una tecla para salir...");
             Console.Read();
 
         }
-
+        /// <summary>
+        /// Los siguientes 4 métodos muestran aquellas opciones de gestión de las clases generadas.
+        /// </summary>
+        /// <param name="isEditable">El bool se genera en false cuando no hay objetos en la clase. Bloquea ciertas funciones del CRUD.</param>
         static void ShowMenuBooks(bool isEditable)
         {
             //Libros
@@ -797,6 +805,10 @@ namespace LibraryXP
                 Console.Clear();
             }
         }
+        /// <summary>
+        /// El menú se muestra para dar opción al usuario qué es lo que quiere gestionar.
+        /// </summary>
+        /// <returns>El input que el usuario ha elegido para gestionar.</returns>
         static int ShowMenu() {
             Console.Clear();
             Console.WriteLine("----------------------------------------");
@@ -827,6 +839,9 @@ namespace LibraryXP
             return input;
         }
 
+        /// <summary>
+        /// A partir de aquí, se generan tablas reutilizables, que en este caso son los Autores, Libros y Usuarios.
+        /// </summary>
         static void TableAuthors() {
             if (authors.Count > 0)
             {

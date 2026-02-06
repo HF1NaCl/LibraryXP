@@ -5,6 +5,11 @@ using System.Text;
 
 namespace LibraryXP
 {
+    /// <summary>
+    /// El usuario es la clase clave para determinar si el Usuario realmente es responsable con devolver libros y registrar aquellos usuarios frecuentes o nuevos
+    /// quienes solicitan libros para ser prestados. Tienen un sistema de puntaje para determinar y priorizar aquellos que sean responsables y determinar si
+    /// es apto para el préstamo.
+    /// </summary>
     internal class User
     {
         private int idUser;

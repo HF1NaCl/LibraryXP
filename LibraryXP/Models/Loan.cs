@@ -5,6 +5,12 @@ using System.Text;
 
 namespace LibraryXP
 {
+    /// <summary>
+    /// El préstamo es bastante condicional si se analiza bien el código. Utiliza clases como el Usuario y el Libro para poder generar el préstamo.
+    /// Existen miembros en los que definen realmente como un préstamo, como lo son: isActive, dateLoan y returnLoan. Estos datos determinan si está
+    /// activo el préstamo y estas fechas condicionan el puntaje (O historial) del Usuario, afectando su reputación positivamente o negativamente, dependiendo
+    /// de su responsabilidad al regresar el libro.
+    /// </summary>
     internal class Loan
     {   
         private int idLoan;

@@ -1,0 +1,1 @@
+c['41']=[['42',"CreateAuthor (Método)","topic_0000000000000002.html",0],['43',"DeleteAuthor (Método)","topic_0000000000000006.html",0],['44',"GetAuthorByID (Método)","topic_0000000000000004.html",0],['45',"GetAuthors (Método)","topic_0000000000000003.html",0],['46',"UpdateAuthor (Método)","topic_0000000000000005.html",0]];

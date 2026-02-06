@@ -1,0 +1,1 @@
+search_result['49']=["topic_000000000000001B.html","UserController.DeleteUser (Método)","Elimina todos los préstamos relacionados y el usuario seleccionado"];

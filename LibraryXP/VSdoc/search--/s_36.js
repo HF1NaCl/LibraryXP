@@ -1,0 +1,1 @@
+search_result['36']=["topic_0000000000000013.html","LoanController.UpdateLoan (Método)","Si el sistema de puntaje de créditos es funcional, entonces podríamos hacer que suba y baje puntaje para el historial de préstamos.\r\nLógica sería así: Si aún está a la fecha, al devolver se le sube pu..."];

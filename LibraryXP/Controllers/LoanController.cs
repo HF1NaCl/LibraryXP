@@ -27,6 +27,11 @@ namespace LibraryXP.Controllers
             var db = JsonHelper.ReadDB();
             return db.Loans.FirstOrDefault(u => u.IdLoan == id);
         }
+        /// <summary>
+        /// Método para contar cuantos préstamos tiene el libro. Esto evita sobrepasarse en el stock.
+        /// </summary>
+        /// <param name="idBook">El ID del libro.</param>
+        /// <returns>Un Int en el que muestra cuántos préstamos tiene activos actualmente.</returns>
         public static int CountActiveLoans(int idBook)
         {
             var db = JsonHelper.ReadDB();
@@ -36,6 +41,11 @@ namespace LibraryXP.Controllers
                 l.IsActive == true // activo
             );
         }
+        /// <summary>
+        /// Revisa si el usuario en cuestión tiene Préstamos activos.
+        /// </summary>
+        /// <param name="id">El ID del usuario para revisar préstmos</param>
+        /// <returns>Si tiene préstmos, mostrará true.</returns>
         public static bool HasActiveLoanByUser(int id) {
             var db = JsonHelper.ReadDB();
 
@@ -44,6 +54,13 @@ namespace LibraryXP.Controllers
                 l.IsActive == true // activo
             );
         }
+        /// <summary>
+        /// Si el sistema de puntaje de créditos es funcional, entonces podríamos hacer que suba y baje puntaje para el historial de préstamos.
+        /// Lógica sería así: Si aún está a la fecha, al devolver se le sube puntaje, pudiendo dar retroceso en caso de error.
+        /// Si ya se pasó la fecha, solo se puede cerrar el caso y tener puntaje negativo.
+        /// </summary>
+        /// <param name="id">Un ID para poder actualizar el Préstamo</param>
+        /// <returns>Un bool para indicar si todo ha ido bien o no.</returns>
         public static bool UpdateLoan(int id)
         {
             var db = JsonHelper.ReadDB();

@@ -1,0 +1,1 @@
+search_result['35']=["topic_0000000000000012.html","LoanController.HasActiveLoanByUser (Método)","Revisa si el usuario en cuestión tiene Préstamos activos."];

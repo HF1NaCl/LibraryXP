@@ -1,0 +1,1 @@
+search_result['70']=["topic_0000000000000026.html","JsonHelper.GetNextID\u0026lt;T\u0026gt; (Método)","Este método captura el siguiente ID dentro de la clase. Solo verifica lo que es el último número y le agrega un 1."];

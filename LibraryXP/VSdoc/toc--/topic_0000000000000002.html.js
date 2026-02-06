@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"LibraryXP Reference","topic_000000000000003F.html"],['39',"LibraryXP.Controllers (Espacio de nombres)","topic_0000000000000000.html"],['40',"AuthorController (Clase)","topic_0000000000000001.html"],['41',"Métodos","topic_0000000000000001_methods--.html"],['42',"CreateAuthor (Método)","topic_0000000000000002.html"]];
