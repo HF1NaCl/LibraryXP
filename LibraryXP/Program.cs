@@ -13,7 +13,7 @@ namespace LibraryXP
     /// El objetivo de este programa es generar archivos .json para almacenar en solo aquel archivo los datos de una gestión de Libros, ya sea
     /// con las siguientes clases: Autores, Libros, Préstamos y Usuarios. 
     /// Si bien, esto es básico, está optimizado para utilizar menos recursos posibles.
-    /// También está hecho a través de .NET 3.5 para compatibilizar con Windows XP y otros equipos viejos que dependan del Terminal (CLI)
+    /// También está hecho a través de .NET 3.5 para compatibilizar con Windows 7 x64 y otros equipos viejos que dependan del Terminal (CLI)
     /// </summary>
     internal class Program
     {

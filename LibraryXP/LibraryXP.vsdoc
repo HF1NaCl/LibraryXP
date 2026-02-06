@@ -86,13 +86,11 @@
         <id>intro</id>
         <comment><![CDATA[<summary>
 Este proyecto tiene como finalidad demostrar el uso responsable de lectura y
-escritura basada en .json y también una capa de compatibilidad de Windows XP
-hacia adelante, hecho y fabricado basado en Terminal (CLI) para compatibilizar
-equipos antiguos.
-
-En él, se mostrará como ejemplo, una gestión de una Biblioteca, en la cual, se
-registrarán Libros, Autores, Usuarios y Préstamos, para tener un seguimiento de
-stock y prestados.
+escritura basada en .json y también una capa de compatibilidad de Windows Vista
+(x64) hacia adelante, hecho y fabricado basado en Terminal (CLI) para
+compatibilizar equipos antiguos. En él, se mostrará como ejemplo, una gestión de
+una Biblioteca, en la cual, se registrarán Libros, Autores, Usuarios y
+Préstamos, para tener un seguimiento de stock y prestados.
 </summary>vsdocman_escaped_]_]_></comment>
         <namespaces />
         <topics />
