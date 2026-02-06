@@ -10,10 +10,10 @@ El proyecto fue creado con fines académicos y de práctica en arquitectura bás
 
 ## 📌 Descripción general
 
--Gestiona las clases importantes de una Biblioteca, así como un seguimiento del puntaje o historial del usuario.
--Fue creado para utilizarlo en dispositivo con baja potencia, así como la necesidad de hacerlo en una Terminal (CLI), siendo este su mayor sentido de utilización.
--Guardado local en archivo .json
--Validaciones de existencia de clases como los préstamos antes de hacer cambios.
+- Gestiona las clases importantes de una Biblioteca, así como un seguimiento del puntaje o historial del usuario.
+- Fue creado para utilizarlo en dispositivo con baja potencia, así como la necesidad de hacerlo en una Terminal (CLI), siendo este su mayor sentido de utilización.
+- Guardado local en archivo .json
+- Validaciones de existencia de clases como los préstamos antes de hacer cambios.
 
 ---
 
