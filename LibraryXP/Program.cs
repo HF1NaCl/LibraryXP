@@ -239,6 +239,7 @@ namespace LibraryXP
                             if (!isValid2)
                             {
                                 Console.WriteLine("No es un valor adecuado.");
+                                Console.ReadLine();
                                 break;
                             }
                             var book = BookController.GetBookByID(id);
@@ -301,6 +302,7 @@ namespace LibraryXP
                             if (!isValid2)
                             {
                                 Console.WriteLine("No es un valor adecuado.");
+                                Console.ReadLine();
                                 break;
                             }
                             var book = BookController.GetBookByID(id);
@@ -402,6 +404,7 @@ namespace LibraryXP
                             if (!isValid2)
                             {
                                 Console.WriteLine("No es un valor adecuado.");
+                                Console.ReadLine();
                                 break;
                             }
                             var author = AuthorController.GetAuthorByID(id);
@@ -435,6 +438,7 @@ namespace LibraryXP
                             if (!isValid2)
                             {
                                 Console.WriteLine("No es un valor adecuado.");
+                                Console.ReadLine();
                                 break;
                             }
                             var author = AuthorController.GetAuthorByID(id);
@@ -530,6 +534,7 @@ namespace LibraryXP
                             if (!isValid2)
                             {
                                 Console.WriteLine("No es un valor adecuado.");
+                                Console.ReadLine();
                                 break;
                             }
                             var user = UserController.GetUserByID(id);
@@ -564,6 +569,7 @@ namespace LibraryXP
                             if (!isValid2)
                             {
                                 Console.WriteLine("No es un valor adecuado.");
+                                Console.ReadLine();
                                 break;
                             }
                             var user = UserController.GetUserByID(id);
@@ -751,6 +757,7 @@ namespace LibraryXP
                             if (!isValid2)
                             {
                                 Console.WriteLine("No es un valor adecuado.");
+                                Console.ReadLine();
                                 break;
                             }
                             var loan = LoanController.GetLoanByID(id);
@@ -781,6 +788,7 @@ namespace LibraryXP
                             if (!isValid2)
                             {
                                 Console.WriteLine("No es un valor adecuado.");
+                                Console.ReadLine();
                                 break;
                             }
                             var loan = LoanController.GetLoanByID(id);
