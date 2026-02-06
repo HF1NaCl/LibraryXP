@@ -111,7 +111,7 @@ namespace LibraryXP
                 }
             }
 
-            ///Finalmente hacemos esto para salir del programa
+            //Finalmente hacemos esto para salir del programa
             Console.WriteLine("Presione una tecla para salir...");
             Console.Read();
 

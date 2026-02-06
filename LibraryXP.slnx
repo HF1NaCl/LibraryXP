@@ -1,3 +1,9 @@
 <Solution>
-  <Project Path="LibraryXP/LibraryXP.csproj" Id="d9b8958a-355d-444f-b600-a853a3229c95" />
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="LibraryXP/LibraryXP.csproj" Id="d9b8958a-355d-444f-b600-a853a3229c95">
+    <Platform Solution="Debug|x86" Project="x86" />
+  </Project>
 </Solution>
