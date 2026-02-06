@@ -1,1 +1,0 @@
-var breadcrumbs=[['-1',"",""],['2',"LibraryXP Reference","topic_000000000000003F.html"],['4',"LibraryXP (Espacio de nombres)","topic_000000000000001C.html"],['5',"Author (Clase)","topic_0000000000000027.html"],['6',"Propiedades","topic_0000000000000027_props--.html"]];

@@ -1,1 +1,0 @@
-search_result['13']=["topic_0000000000000006.html","AuthorController.DeleteAuthor (Método)","El metodo puede revisar si tiene libros con préstamos activos"];

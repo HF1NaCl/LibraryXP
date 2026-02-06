@@ -1,1 +1,0 @@
-search_result['48']=["topic_000000000000001A.html","UserController.UpdateScoreByUser (Método)","Método para hacerlo en base a un DB ya existente. No hay necesidad de utilizar sin DB debido que solo exclusivamente lo hace dentro de los Préstamos."];

@@ -1,1 +1,0 @@
-search_result['114']=["topic_000000000000003E.html","Program (Clase)","El objetivo de este programa es generar archivos .json para almacenar en solo aquel archivo los datos de una gestión de Libros, ya sea\r\ncon las siguientes clases: Autores, Libros, Préstamos y Usuarios..."];

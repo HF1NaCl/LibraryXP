@@ -1,1 +1,0 @@
-c['64']=[['65',"CreateUser (Método)","topic_0000000000000016.html",0],['66',"DeleteUser (Método)","topic_000000000000001B.html",0],['67',"GetUserByID (Método)","topic_0000000000000018.html",0],['68',"GetUsers (Método)","topic_0000000000000017.html",0],['69',"UpdateScoreByUser (Método)","topic_000000000000001A.html",0],['70',"UpdateUser (Método)","topic_0000000000000019.html",0]];

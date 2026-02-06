@@ -1,1 +1,0 @@
-c['4']=[['5',"Author (Clase)","topic_0000000000000027.html",1],['9',"Book (Clase)","topic_000000000000002A.html",1],['18',"DataBase (Clase)","topic_000000000000001D.html",1],['24',"Loan (Clase)","topic_0000000000000032.html",1],['32',"Program (Clase)","topic_000000000000003E.html",0],['33',"User (Clase)","topic_0000000000000039.html",1]];
