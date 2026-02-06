@@ -1,0 +1,78 @@
+{
+  "Authors": [
+    {
+      "IdAuthor": 1,
+      "NameAuthor": "Roberto Gomez Bolaños"
+    },
+    {
+      "IdAuthor": 2,
+      "NameAuthor": "Stephen King"
+    }
+  ],
+  "Books": [
+    {
+      "IdBook": 1,
+      "CodeBook": "CSQQ2025",
+      "NameBook": "Sin Querer Queriendo",
+      "IdAuthor": 1,
+      "Genre": "Autobiografía",
+      "Year": 2002,
+      "TotalStockBook": 1
+    },
+    {
+      "IdBook": 2,
+      "CodeBook": "ER1977",
+      "NameBook": "El Resplandor",
+      "IdAuthor": 2,
+      "Genre": "Terror",
+      "Year": 1977,
+      "TotalStockBook": 2
+    }
+  ],
+  "Loans": [
+    {
+      "IdLoan": 1,
+      "IdUser": 1,
+      "IdBook": 1,
+      "IsActive": false,
+      "DateLoan": "2026-02-01T10:00:00",
+      "ReturnLoan": "2026-02-15T10:00:00"
+    },
+    {
+      "IdLoan": 2,
+      "IdUser": 2,
+      "IdBook": 2,
+      "IsActive": true,
+      "DateLoan": "2026-01-28T15:00:00",
+      "ReturnLoan": "2026-02-11T15:00:00"
+    },
+    {
+      "IdLoan": 3,
+      "IdUser": 3,
+      "IdBook": 2,
+      "IsActive": false,
+      "DateLoan": "2026-01-20T12:00:00",
+      "ReturnLoan": "2026-02-03T12:00:00"
+    }
+  ],
+  "Users": [
+    {
+      "IdUser": 1,
+      "NameUser": "Enrique",
+      "LastNameUser": "Fu Orozco",
+      "CreditScoreUser": 50
+    },
+    {
+      "IdUser": 2,
+      "NameUser": "Barbario",
+      "LastNameUser": "Bazasiono",
+      "CreditScoreUser": -50
+    },
+    {
+      "IdUser": 3,
+      "NameUser": "Min",
+      "LastNameUser": "Max",
+      "CreditScoreUser": 15
+    }
+  ]
+}
