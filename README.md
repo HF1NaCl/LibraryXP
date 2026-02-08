@@ -30,12 +30,12 @@ El proyecto fue creado con fines académicos y de práctica en arquitectura bás
 ## 🧱 Arquitectura del proyecto
 
 Su lógica se basa en estos puntos:
--**Program.cs**
- -Es el punto de entrada en el que se comunican con inputs los números para acceder a las gestiones de cada clase.
--**Controllers**
- -Controladores de las clases para realizar aquellas operaciones necesarias como lo son los CRUD, y también adicionales en caso de ser necsario como contar y verificar datos.
- -**Data**
-  -Datos iniciales para ejemplificar el uso del .json y la conexión principal entre las clases y el archivo para gestionar los datos.
+- **Program.cs**
+ - Es el punto de entrada en el que se comunican con inputs los números para acceder a las gestiones de cada clase.
+- **Controllers**
+ - Controladores de las clases para realizar aquellas operaciones necesarias como lo son los CRUD, y también adicionales en caso de ser necsario como contar y verificar datos.
+ - **Data**
+  - Datos iniciales para ejemplificar el uso del .json y la conexión principal entre las clases y el archivo para gestionar los datos.
 
 ---
 
@@ -43,20 +43,20 @@ Su lógica se basa en estos puntos:
 
 El proyecto estará empaquetado en un archivo ejecutable, para su uso dentro del sistema operativo Windows.
 Opcionalmente, para mayor detalle o cambio de versión de .NET a una versión posterior:
--Clonar repositorio.
--Abrir archivo .slnx
--Verifique que efectivamente esté en .NET Framework 3.5
--Restaurar dependencias (Newtonsoft.Json)
--Compilar y ejecutar
+- Clonar repositorio.
+- Abrir archivo .slnx
+- Verifique que efectivamente esté en .NET Framework 3.5
+- Restaurar dependencias (Newtonsoft.Json)
+- Compilar y ejecutar
 
 ---
 
 ⚠️ Consideraciones y limitaciones
 
- -Proyecto basado en .NET Framework 3.5
- -No incluye concurrencia ni control de acceso
- -Persistencia limitada a archivos locales
- -No recomendado para entornos de producción (a menos que se desee implementar la parte de .json)
+- Proyecto basado en .NET Framework 3.5
+- No incluye concurrencia ni control de acceso
+- Persistencia limitada a archivos locales
+- No recomendado para entornos de producción (a menos que se desee implementar la parte de .json)
 
 ---
 
