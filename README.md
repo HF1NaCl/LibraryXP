@@ -53,10 +53,10 @@ Opcionalmente, para mayor detalle o cambio de versión de .NET a una versión po
 
 ⚠️ Consideraciones y limitaciones
 
--Proyecto basado en .NET Framework 3.5
--No incluye concurrencia ni control de acceso
--Persistencia limitada a archivos locales
--No recomendado para entornos de producción (a menos que se desee implementar la parte de .json)
+ -Proyecto basado en .NET Framework 3.5
+ -No incluye concurrencia ni control de acceso
+ -Persistencia limitada a archivos locales
+ -No recomendado para entornos de producción (a menos que se desee implementar la parte de .json)
 
 ---
 
